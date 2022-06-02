@@ -1,0 +1,306 @@
+/* pagina wat algemeen kom te staan in alle pagina`s*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    border: 12px solid blue;
+}
+
+/* dit is 100% brede "balk" */
+    .topNav {
+    background-color: gray;
+    width: auto;
+    
+}
+/*De groote van m`n menu bar.*/
+#hetMenu {
+    width: 800px;
+    height: 47px;
+    margin: 0 auto;
+    background-color: gray;
+}
+/* Menu bar waar alle m`n  pagina komen te staan met een links daar naar toe.*/
+.topNav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    /* text-decoration zorgt ervoor dat je geen 
+        onderstreping onder je tekst krijgt */
+    text-decoration: none;
+    font-size: 17px;
+}
+/*Als je met je muis langs de menu (pagina naams) gaat, zie de kleur blauw en witt*/
+.topNav a:hover {
+    background-color: blue;
+    color: white;
+}
+/* Dit geeft aan welke pagina op dat momment actiev is*/
+ .topNav a.active{
+    background-color: blue;
+    color: white;
+
+}
+
+/*Een div waar de volgend id is zitten: veld en class veld1, veld2, veld3*/
+.velden{
+    width: 95%;
+    height: 90%;
+/* background-color: cyan;*/
+    margin: 0 auto;
+    border: 8px solid blue;
+}
+/*een div waar veld 1, 2, 3 in zit */
+#veld{
+    width: auto;
+    margin: 25px auto;
+    height: 260px;
+}
+
+/* Een div waar de volgende id in zit text, waardes van mijn title*/
+#title {
+    width: 850px;
+    height: auto;
+    margin-top:50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 340px;
+  
+}
+/* Hier in wil ik dat de tekst strak links aan komt van */
+#text {
+    text-align: left;
+}
+
+#foto {
+    background: url('xt-image/windsurfing.jpg');
+    float: left;
+    margin: 0;
+    margin-right: 13px;
+    border:5px solid black;
+    height: 250px;
+    width: 250px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto1 {
+    background: url('xt-image/mount.jpg');
+    float: left;
+    margin: 0;
+    margin-right: 13px;
+    border:5px solid black;
+    height: 250px;
+    width: 250px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto2 {
+    background: url('xt-image/snorkele.jpg');
+    float: left;
+    margin: 0;
+    margin-right: 13px;
+    border:5px solid black;
+    height: 250px;
+    width: 250px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title h3 {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+footer {
+    width: auto;
+    text-align: center;
+    background-color: grey;
+    color: white;
+  }
+
+  strong {
+    color: blue;
+}
+h1 {
+    color: blue;
+}
+/* Pagina Windsurfing*/
+
+.veld {
+    width: auto;
+    margin: 25px auto;
+    height: 395px;
+}
+
+.foto {
+    background: url('xt-image/windsurfing.jpg');
+    float: left;
+    margin: 0;
+    margin-right: 13px;
+    border:5px solid black;
+    height: 385px;
+    width: 385px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Mountainclimbing pagina */
+
+.veld1 {
+    width: auto;
+    margin: 25px auto;
+    height: 395px;
+}
+
+.foto1 {
+    background: url('xt-image/mount.jpg');
+    float: left;
+    margin: 0;
+    margin-right: 13px;
+    border:5px solid black;
+    height: 385px;
+    width: 385px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Snorkele pagina */
+
+.veld2 {
+    width: auto;
+    margin: 25px auto;
+    height: 395px;
+}
+
+.foto2 {
+    background: url('xt-image/snorkele.jpg');
+    float: left;
+    margin: 0;
+    margin-right: 13px;
+    border:5px solid black;
+    height: 385px;
+    width: 385px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Contact pagina */
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: green;
+}
+
+.container01 {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 35%;
+  height: 40%;
+  color: blue;
+  border: 8px solid blue;
+}
+
+/* Over ons pagina */
+.box {
+    width: 95%;
+    height: 400px;
+    border: 8px solid blue;
+    margin: 0 auto;
+}
+.image {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: 0;
+} 
+.photo {
+    background: url('xt-image/sarah.jpg');
+    float: left;
+    margin: 0;
+    margin-right: 13px;
+    border:5px solid black;
+    height: 383px;
+    width: 100%;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text3 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding-left: 10px;
+
+}
+.text3 h3 {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+/* Pagina Last-minutes deals */
+
+.coupon {
+    border: 8px solid blue;
+    width: 100%;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 600px;
+  }
+  
+  .container {
+    padding: 2px 16px;
+    background-color: gray;
+    width: 100%;
+
+  }
+  
+  .promo {
+    background: gray;
+    padding: 3px;
+  }
+  
+  .expire {
+    color: red;
+  }
+
+  .container {
+      border: solid gray;
+  }
